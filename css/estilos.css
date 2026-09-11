@@ -39,7 +39,7 @@ header h1 {
 .main {
   background-color: #fff;
   padding: 0;
-  width: auto;
+  width: 60%;
 }
 
 .postagem {
@@ -55,15 +55,13 @@ header h1 {
 .side1 {
   background-color: #a3beb7;
   padding: 0;
-  margin: 10px;
-  width: auto;
+  width: 20%;
 }
 
 .side2 {
   background-color: #a3beb7;
   padding: 0;
-  margin: 10px;
-  width: auto;
+  width: 20%;
 }
 
 .favoritos {
@@ -76,4 +74,18 @@ footer {
   text-align: center;
   color: #fff;
   font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .side1,
+  .main,
+  .side2 {
+    width: 100%;
+  }
 }
