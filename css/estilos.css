@@ -19,7 +19,6 @@ header h1 {
 .container {
   display: flex;
   flex-direction: row;
-  gap: 10px;
 }
 .navbar {
   background-color: #0e0e0e;
