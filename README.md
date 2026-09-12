@@ -12,4 +12,4 @@ Abra o arquivo index em um navegador.
 
 # Vídeo de desenvolvimento
 
-Link: Aguardando
+Link: https://youtu.be/rwadXDWPEP0?si=NnTxYp9OZM3e-IjS
