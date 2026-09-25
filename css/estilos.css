@@ -75,6 +75,23 @@ footer {
   font-size: 12px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 8px;
+  background-color: #e8f1ee;
+}
+
+thead th {
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
 @media screen and (max-width: 700px) {
   .container {
     flex-direction: column;
