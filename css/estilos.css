@@ -97,6 +97,11 @@ thead th {
   padding: 12px;
 }
 
+.rotulo {
+  display: block;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 700px) {
   .container {
     flex-direction: column;
