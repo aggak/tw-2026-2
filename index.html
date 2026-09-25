@@ -58,6 +58,7 @@
             lanhouse.
           </p>
         </div>
+
         <table>
           <caption>
             Lista de Jogos Clássicos
@@ -86,6 +87,39 @@
             </tr>
           </tfoot>
         </table>
+
+        <section id="feedback">
+          <h2>Feedback</h2>
+          <form action="https://httpbin.org/post" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+            <label for="jogo">Jogo favorito:</label>
+
+            <select id="jogo" name="jogo" required>
+              <option value="">Selecione um jogo</option>
+              <option value="mario">Super Mario</option>
+              <option value="sonic">Sonic</option>
+            </select>
+
+            <p>Você recomendaria esse jogo?</p>
+            <input
+              type="radio"
+              id="recomenda-sim"
+              name="recomenda"
+              value="sim"
+              required
+            />
+            <label for="recomenda-sim">Sim</label>
+
+            <input
+              type="radio"
+              id="recomenda-nao"
+              name="recomenda"
+              value="nao"
+            />
+            <label for="recomenda-nao">Não</label>
+          </form>
+        </section>
       </div>
       <div class="side2">
         <div class="favoritos">
