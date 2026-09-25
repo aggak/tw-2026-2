@@ -102,6 +102,10 @@ thead th {
   margin-top: 10px;
 }
 
+.campo {
+  width: 95%;
+}
+
 @media screen and (max-width: 700px) {
   .container {
     flex-direction: column;
