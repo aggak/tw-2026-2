@@ -106,6 +106,13 @@ thead th {
   width: 95%;
 }
 
+.formulario button {
+  background-color: #0e0e0e;
+  color: #fff;
+  border: none;
+  padding: 8px;
+}
+
 @media screen and (max-width: 700px) {
   .container {
     flex-direction: column;
